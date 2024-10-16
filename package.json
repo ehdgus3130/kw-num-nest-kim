@@ -1,5 +1,5 @@
 {
-    "name": "kw_num_nest_2020202023",
+    "name": "kw-num-nest-2020202023",
     "version": "0.0.1",
     "main": "main.js",
     "scripts": {
@@ -8,9 +8,9 @@
     "bin": {
         "numnest": "./main.js"
     },
-    "author": "",
+    "author": "kimdo",
     "license": "ISC",
-    "description": "",
+    "description": "A package to handle numerical nesting operations.",
     "devDependencies": {
         "jest": "^29.7.0"
     }
