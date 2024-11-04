@@ -7,8 +7,11 @@ function avg(numbers) {
 }
 
 function prime(num) {
-
-    return false;
+    if (num <= 1) return false;  // 1 이하의 숫자는 소수가 아님
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+        if (num % i === 0) return false;  // 약수가 존재하면 소수가 아님
+    }
+    return true;
 }
 
 function factorial(num) {

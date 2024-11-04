@@ -1,6 +1,6 @@
 {
     "name": "kw-num-nest-2020202023",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "main": "main.js",
     "scripts": {
         "test": "jest"
